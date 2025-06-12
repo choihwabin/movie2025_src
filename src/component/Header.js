@@ -8,7 +8,7 @@ function Header(props) {
     <header>
       <h1>
         {/* 상단로고 */}
-        <Link to='/movie2025'> {/*to = href*/}
+        <Link to='/'> {/*to = href*/}
           <img src={`${process.env.PUBLIC_URL}/images/logo-YTS.svg`}  alt="상단로고" />
         </Link>
       </h1>

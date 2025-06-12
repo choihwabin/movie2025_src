@@ -21,7 +21,7 @@ function App() {
       <Header />
 
       <Routes>
-        <Route path='/movie2025' element={<Main />} />
+        <Route path='/' element={<Main />} />
         <Route path='/intro' element={<Intro />} />
         <Route path='/api' element={<Api />} />
         <Route path='/Contact' element={<Contact />} />
